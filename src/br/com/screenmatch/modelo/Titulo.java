@@ -15,6 +15,12 @@ public class Titulo implements Comparable<Titulo> {
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
 
+    public Titulo(TituloOmdb meuTituloOmdb) {
+        this.nome = meuTituloOmdb.title();
+        this.anoDeLancamento = Integer.valueOf(meuTituloOmdb.year());
+        this.duracaoEmMinutos = Integer.valueOf(meuTituloOmdb.runtime().substring(0, 2));
+    }
+
     public int getTotalDeAvaliacoes() {
         return totalDeAvaliacoes;
     }
@@ -52,7 +58,7 @@ public class Titulo implements Comparable<Titulo> {
     }
 
     public void exibeFichaTecnica() {
-        System.out.println("Nome do br.com.screenmatch.modelo.Filme "+ nome);
+        System.out.println("Nome do br.com.screenmatch.modelo.Filme " + nome);
         System.out.println("Ano de Lancamento" + anoDeLancamento);
         System.out.println("Duração do filmes " + duracaoEmMinutos);
         System.out.println("Esta incluso no plano " + incluidoNoPlano);
@@ -72,5 +78,12 @@ public class Titulo implements Comparable<Titulo> {
     @Override
     public int compareTo(Titulo outroTitulo) {
         return this.getNome().compareTo(outroTitulo.getNome());
+    }
+
+    @Override
+    public String toString() {
+        return "nome = " + nome + '\n' +
+                "anoDeLancamento =" + anoDeLancamento + "," +
+                " duração" + duracaoEmMinutos;
     }
 }
