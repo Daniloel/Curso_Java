@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d7031ba-fa23-424d-9b4c-81cebde69be8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/Principal/PrincipalComBusca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelo/TituloOmdb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/excecao/ErroDeConversaoDeAnoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenmatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/Principal/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/Principal/PrincipalComBusca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/modelo/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelo/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,7 +43,7 @@
     "Application.PrincipalComListas.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Aula__04",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Notebook-1-tvix/Downloads/gson-2.13.1.jar",
     "onboarding.tips.debug.path": "C:/Users/Notebook-1-tvix/Documents/ProjetosJava/CursoCriandoPrimeiraAplicação/screenmatch/src/Main.java",
@@ -53,6 +52,11 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.screenmatch.excecao" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.PrincipalComBusca">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.Principal.Principal" />
